@@ -1,6 +1,8 @@
 # Find the largest number
 """"""
-"""def find_largest(input_, input__, input___):
+
+
+def find_largest(input_, input__, input___):
     if input__ < input_ > input___:
         return f'{input_} is greater...'
     elif input_ < input__ > input___:
@@ -13,10 +15,11 @@ Input_ = int(input("Enter first number:"))
 Input__ = int(input("Enter first number:"))
 Input___ = int(input("Enter first number:"))
 Output = find_largest(Input_, Input__, Input___)
-print(Output)"""
+print(Output)
+
 
 # Check if a number is positive, negative, or zero.
-"""def integer_type(input_):
+def integer_type(input_):
     if input_ > 0:
         return 'Positive number...'
     elif input_ == 0:
@@ -27,10 +30,11 @@ print(Output)"""
 
 Input = int(input("Enter number: "))
 Output = integer_type(Input)
-print(Output)"""
+print(Output)
+
 
 # Check if a number is a leap year.
-"""def leap_year(input_year):
+def leap_year(input_year):
     if (input_year % 4 == 0 and input_year % 100 != 0) or input_year % 400 == 0:
         return 'Leap year...'
     else:
@@ -39,10 +43,11 @@ print(Output)"""
 
 Input_year = int(input('Enter year: '))
 Output = leap_year(Input_year)
-print(Output)"""
+print(Output)
+
 
 # Check if a number is a perfect number.
-"""def perfect_number(num1):
+def perfect_number(num1):
     sum_ = 0
     for i in range(1, num1):
         if num1 % i == 0:
@@ -55,10 +60,11 @@ print(Output)"""
 
 Input = int(input("Enter number:"))
 Output = perfect_number(Input)
-print(Output)"""
+print(Output)
+
 
 # Check if a number is prime.
-"""def check_prime(num):
+def check_prime(num):
     is_prime = True
     for i in range(2, num):
         if num % i == 0:
@@ -72,10 +78,11 @@ print(Output)"""
 
 Input_number = int(input("Enter number: "))
 Output = check_prime(Input_number)
-print(Output)"""
+print(Output)
+
 
 # Check if a string is a palindrome.
-"""def check_palindrome(str_):
+def check_palindrome(str_):
     str__ = ''.strip()
     for i in str_:
         str__ = i + str__
@@ -87,10 +94,11 @@ print(Output)"""
 
 Input_ = input("Enter string: ").strip()
 Output = check_palindrome(Input_)
-print(Output)"""
+print(Output)
+
 
 # Find the second-largest number in a list.
-"""def second_largest_num(list_):
+def second_largest_num(list_):
     for num in range(len(list_)):
         min_index = num
         for num1 in range(num + 1, len(list_)):
@@ -102,10 +110,11 @@ print(Output)"""
 
 Input = [1, 2, 4, 6, 8, 9, 10, 6, 18]
 Output = second_largest_num(Input)
-print(Output)"""
+print(Output)
+
 
 # Check if a number is an Armstrong number.
-"""def check_armstrong_number(Input_):
+def check_armstrong_number(Input_):
     length = len(Input_)
     sum_ = 0
     for i in Input_:
@@ -118,7 +127,7 @@ print(Output)"""
 
 Input = input("Enter your number: ")
 Output = check_armstrong_number(Input)
-print(Output)"""
+print(Output)
 
 
 # Check if a string contains vowels or not.
