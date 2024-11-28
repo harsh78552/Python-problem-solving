@@ -5,8 +5,8 @@ def give_rank(list_):
     for element in list_:
         dict_index[element] = list_.index(element)
     list_.sort(reverse=True)
-    for index__, value in enumerate(list_):
-        ord_index = dict_index[value]
+    for index__ in range(len(list_)):
+        ord_index = dict_index[list_[index__]]
         if index__ < 3:
             medal_string[ord_index] = medal_list[index__]
         else:
