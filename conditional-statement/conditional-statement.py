@@ -135,8 +135,8 @@ def check_vowels(str_):
     vowel_ = 'a,e,i,o,u'
     for i in vowel_:
         if i in str_:
-            return 'String contain vowel...'
-    return 'String not contain vowel...'
+            return 'Practice Problem on Strings contain vowel...'
+    return 'Practice Problem on Strings not contain vowel...'
 
 
 Input = input("Enter string: ").lower()

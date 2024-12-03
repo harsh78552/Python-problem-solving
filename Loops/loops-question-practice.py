@@ -105,7 +105,7 @@ Output = Factorial(Input)
 print(Output)
 
 
-# 8.Reverse a String
+# 8.Reverse a Practice Problem on Strings
 def Reverse_string(str_):
     # This function just revere string
     str__ = ''
@@ -184,6 +184,6 @@ def character_occurrence(str_):
     return dict_
 
 
-Input = input("Enter String: ").replace(" ", "")
+Input = input("Enter Practice Problem on Strings: ").replace(" ", "")
 Output = character_occurrence(Input)
 print(Output)
