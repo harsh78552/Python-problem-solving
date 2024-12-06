@@ -28,7 +28,7 @@ def make_palindrome(string_):
                         count_ += 1
                         count1 -= 1
     string__ = ''.join(initialise_list)
-    return f"Palindrome of input string is: {string__}"
+    return f"Palindrome of input string is: {string__} and it's length: {len(string__)}"
 
 
 Input_String = 'abbcdccac'
