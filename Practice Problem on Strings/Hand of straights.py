@@ -14,7 +14,7 @@ def replace_word(string_, list_):
     return string_
 
 
-Input_string = 'the cattle was rattled mattled by the battery.'
+Input_string = 'the cattle was rattled matted by the battery.'
 another_list = ['cat', 'bat', 'mat', 'rat']
 Output = replace_word(Input_string, set(another_list))
 print(Output)
